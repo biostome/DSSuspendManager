@@ -17,13 +17,15 @@
 /// 关闭、开启悬浮窗的代理方法
 - (void)on_offFloatDidSwitchFinishWithStatus:(BOOL)status;
 @end
-
+@class MNFloatBtn;
 @interface DSSuspendManager : NSObject
 + (instancetype)share;
 /// 关闭悬浮窗
 - (void)dismissFloatButton;
 /// 显示悬浮窗
 - (void)showFloatButtonWithURLs:(NSArray<NSString*>*)URLs;
+
+@property(nonatomic, strong) MNFloatBtn *floatBtn;
 /// 选择线路后是否自动关闭，默认为YES
 @property(nonatomic, assign) BOOL chooseAfterDismiss;
 /// 悬浮窗的开启状态 默认为NO

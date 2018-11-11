@@ -22,7 +22,7 @@ pod 'DSSuspendManager'
 
 ## Author
 
-biostome, ssh://git@47.90.122.99:2812/data/git/ios00001.git
+biostome, 
 
 ## License
 

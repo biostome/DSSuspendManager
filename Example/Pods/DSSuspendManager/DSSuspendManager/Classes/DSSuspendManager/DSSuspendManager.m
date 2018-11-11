@@ -22,7 +22,8 @@ static NSString * ChooseLineViewOnSwitchKey = @"ChooseLineViewOnSwitchKey";
 
 - (DSLineChooseViews *)lineChooseView{
     if (!_lineChooseView) {
-        _lineChooseView  = [NSBundle.mainBundle loadNibNamed:NSStringFromClass(DSLineChooseViews.class) owner:nil options:nil].lastObject;
+        NSBundle * currentBundle = [NSBundle bundleForClass:self.class];
+        _lineChooseView  = [currentBundle loadNibNamed:NSStringFromClass(DSLineChooseViews.class) owner:nil options:nil].lastObject;
         _lineChooseView.delegate = self;
     }
     return _lineChooseView;
@@ -59,6 +60,7 @@ static NSString * ChooseLineViewOnSwitchKey = @"ChooseLineViewOnSwitchKey";
 - (void)setVersionBtn{
     __weak typeof(self) weakself = self;
     MNFloatBtn *btn = [MNFloatBtn getFloatBtn];
+    btn.backgroundColor = [UIColor greenColor];
     btn.btnClick = ^(UIButton *sender) {
         [weakself.lineChooseView show];
     };

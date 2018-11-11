@@ -1,6 +1,6 @@
 {
   "name": "DSSuspendManager",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "summary": "简单的悬浮按钮封装",
   "description": "简单的悬浮按钮封装和线路选择",
   "homepage": "https://github.com/biostome/DSSuspendManager",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/biostome/DSSuspendManager.git",
-    "tag": "0.1.0"
+    "tag": "0.1.1"
   },
   "platforms": {
     "ios": "8.0"
