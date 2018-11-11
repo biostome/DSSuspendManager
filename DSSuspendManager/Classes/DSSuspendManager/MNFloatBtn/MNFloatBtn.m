@@ -61,35 +61,28 @@ static CGFloat floatBtnH = 40;
         CGFloat floatBtnX = screenW - floatBtnW;
         CGFloat floatBtnY = 60;
         frame = CGRectMake(floatBtnX, floatBtnY, floatBtnW, floatBtnH);
-    }
+    };
+    
+    NSBundle * currentBundle = [NSBundle bundleForClass:self.class];
+    NSString * path = [currentBundle pathForResource:@"suspendButton@2x.png" ofType:nil inDirectory:@"DSSuspendManager.bundle"];
+    UIImage * image = [UIImage imageWithContentsOfFile:path];
+    
     return [self initWithType:type
                         frame:frame
-                        title:nil
-                   titleColor:[UIColor whiteColor]
-                    titleFont:[UIFont systemFontOfSize:11]
-              backgroundColor:nil
-              backgroundImage:[UIImage imageNamed:@"suspendButton"]];
+              backgroundColor:[UIColor greenColor]
+              backgroundImage:image];
 }
+
 
 - (instancetype)initWithType:(MNAssistiveTouchType)type
                        frame:(CGRect)frame
-                       title:(NSString *)title
-                  titleColor:(UIColor *)titleColor
-                   titleFont:(UIFont *)titleFont
              backgroundColor:(UIColor *)backgroundColor
              backgroundImage:(UIImage *)backgroundImage{
     
     if (self = [super initWithFrame:frame]) {
         _type = type;
-        
-        //UIbutton的换行显示
-        self.titleLabel.lineBreakMode = NSLineBreakByWordWrapping;
-        self.backgroundColor = backgroundColor;
-        self.titleLabel.font = titleFont;
-        [self setTitle:title forState:UIControlStateNormal];
         [self setBackgroundImage:backgroundImage forState:UIControlStateNormal];
         [self setBackgroundColor:backgroundColor];
-        
         [self addTarget:self action:@selector(p_clickBtn:) forControlEvents:UIControlEventTouchUpInside];
         
     }

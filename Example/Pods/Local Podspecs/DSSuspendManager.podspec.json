@@ -1,15 +1,15 @@
 {
   "name": "DSSuspendManager",
   "version": "0.1.0",
-  "summary": "A short description of DSSuspendManager.",
-  "description": "TODO: Add long description of the pod here.",
+  "summary": "简单的悬浮按钮封装",
+  "description": "简单的悬浮按钮封装和线路选择",
   "homepage": "https://github.com/biostome/DSSuspendManager",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "biostome": "ssh://git@47.90.122.99:2812/data/git/ios00001.git"
+    "biostome": "https://github.com/biostome"
   },
   "source": {
     "git": "https://github.com/biostome/DSSuspendManager.git",
@@ -18,5 +18,11 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "DSSuspendManager/Classes/**/*"
+  "source_files": "DSSuspendManager/Classes/**/*.{h,m}",
+  "resource_bundles": {
+    "DSSuspendManager": [
+      "DSSuspendManager/Assets/*.png",
+      "DSSuspendManager/Classes/**/*.xib"
+    ]
+  }
 }

@@ -2,15 +2,15 @@ PODS:
   - DSSuspendManager (0.1.0)
 
 DEPENDENCIES:
-  - DSSuspendManager
+  - DSSuspendManager (from `../`)
 
-SPEC REPOS:
-  https://github.com/biostome/DSSpecs.git:
-    - DSSuspendManager
+EXTERNAL SOURCES:
+  DSSuspendManager:
+    :path: "../"
 
 SPEC CHECKSUMS:
-  DSSuspendManager: b61d7523d3450f46c4aaa234e8b58b4966d5cb85
+  DSSuspendManager: 9f763cabe150b84b1a7af3a83c562f756b807181
 
-PODFILE CHECKSUM: 060e10a9f35ee8e714968694b7c06265dafb0090
+PODFILE CHECKSUM: 8194012098372003bce2da6bba71b1540b629c3e
 
 COCOAPODS: 1.5.3
