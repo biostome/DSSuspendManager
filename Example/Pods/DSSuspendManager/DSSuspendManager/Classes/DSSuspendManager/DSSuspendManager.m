@@ -59,9 +59,8 @@ static NSString * ChooseLineViewOnSwitchKey = @"ChooseLineViewOnSwitchKey";
 
 - (void)setVersionBtn{
     __weak typeof(self) weakself = self;
-    MNFloatBtn *btn = [MNFloatBtn getFloatBtn];
-    btn.backgroundColor = [UIColor greenColor];
-    btn.btnClick = ^(UIButton *sender) {
+    _floatBtn = [MNFloatBtn getFloatBtn];
+    _floatBtn.btnClick = ^(UIButton *sender) {
         [weakself.lineChooseView show];
     };
 }

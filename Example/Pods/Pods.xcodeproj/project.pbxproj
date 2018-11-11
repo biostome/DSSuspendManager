@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		08809479A9C5EB4C949D0095A4C888A6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
+		124C1EA921988AAE00769453 /* DSLineChooseViews.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D25AF37D5255A5C087F60F680B475B3 /* DSLineChooseViews.xib */; };
 		18DF832DC859327C102ED5D78A10668D /* Pods-DSSuspendManager_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 16B0F23B732885B55A6061A4C01000A1 /* Pods-DSSuspendManager_Example-dummy.m */; };
 		25A91D5A220D648EA3C8ED719FAE127F /* DSLineChooseViews.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AACAF8F4C8C732151CFDD68D881A87E /* DSLineChooseViews.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2D9EB8937B40632E3CDD5AF574876C8E /* STSimplePing.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE516A31F7A9E9D6A9DD5B5311C34F2 /* STSimplePing.m */; };
@@ -49,7 +50,7 @@
 		0AACAF8F4C8C732151CFDD68D881A87E /* DSLineChooseViews.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DSLineChooseViews.h; sourceTree = "<group>"; };
 		0BE92A1B8FBCC3DE8C129E5A43DDEDD9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0C93C2923A03B251C9042BCCB8FBD21B /* Pods-DSSuspendManager_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DSSuspendManager_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		14E22EF8560A0994E9F13A5C4A23E191 /* DSSuspendManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DSSuspendManager.framework; path = DSSuspendManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		14E22EF8560A0994E9F13A5C4A23E191 /* DSSuspendManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DSSuspendManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		16B0F23B732885B55A6061A4C01000A1 /* Pods-DSSuspendManager_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DSSuspendManager_Example-dummy.m"; sourceTree = "<group>"; };
 		1A06D04E9AAF0FF295BC9139680FA4FC /* DSLineChooseViews.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = DSLineChooseViews.xib; path = en.lproj/DSLineChooseViews.xib; sourceTree = "<group>"; };
 		24AE4F94C3949323465E33D8B4771549 /* ResourceBundle-DSSuspendManager-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-DSSuspendManager-Info.plist"; sourceTree = "<group>"; };
@@ -66,21 +67,21 @@
 		7A3CC91E8E1B34D7902DEAA4572A5F78 /* DSSuspendManager-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DSSuspendManager-umbrella.h"; sourceTree = "<group>"; };
 		7DFAD2085DC32EA6346A2E1287D1280F /* Pods-DSSuspendManager_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DSSuspendManager_Example.modulemap"; sourceTree = "<group>"; };
 		8BC348C4CDCB40B0FA4783C68219C417 /* Pods-DSSuspendManager_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DSSuspendManager_Example-resources.sh"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		94ACDCF4BF321CFAF40F4329FB3E7F20 /* DSSuspendManager.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = DSSuspendManager.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		97118B2754CB8F4F5E3B35D4DE4CECB4 /* Pods_DSSuspendManager_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DSSuspendManager_Example.framework; path = "Pods-DSSuspendManager_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		94ACDCF4BF321CFAF40F4329FB3E7F20 /* DSSuspendManager.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = DSSuspendManager.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		97118B2754CB8F4F5E3B35D4DE4CECB4 /* Pods_DSSuspendManager_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DSSuspendManager_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4DF0D2B2636C5DFE0C0CA747A41C481 /* STDPingServices.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = STDPingServices.h; sourceTree = "<group>"; };
-		AA9A6A69920CAC8170C9C4E989B826CB /* DSSuspendManager.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = DSSuspendManager.bundle; path = "DSSuspendManager-DSSuspendManager.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA9A6A69920CAC8170C9C4E989B826CB /* DSSuspendManager.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DSSuspendManager.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAE516A31F7A9E9D6A9DD5B5311C34F2 /* STSimplePing.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = STSimplePing.m; sourceTree = "<group>"; };
 		B6AA11DA3F7B4C85342E9E0DBF850AF0 /* DSSuspendManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DSSuspendManager.m; path = DSSuspendManager/Classes/DSSuspendManager/DSSuspendManager.m; sourceTree = "<group>"; };
 		BA49862584AFBF053211039483D92981 /* STDPingServices.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = STDPingServices.m; sourceTree = "<group>"; };
-		C09FD3F22A6A4AB0E442B142B3E97A4B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		C09FD3F22A6A4AB0E442B142B3E97A4B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		C0F6816371AA4CE81ADA42EC59FF5017 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C600102A69723494397213846BAB7D86 /* DSSuspendManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DSSuspendManager.h; path = DSSuspendManager/Classes/DSSuspendManager/DSSuspendManager.h; sourceTree = "<group>"; };
 		CEBA7F4325F043215CAA6DA08E9E19E9 /* DSSuspendManager.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DSSuspendManager.modulemap; sourceTree = "<group>"; };
 		D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		E542C4C7AC1EB42A2D5099DA58164260 /* MNFloatBtn.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MNFloatBtn.h; sourceTree = "<group>"; };
-		F5A8FCF4A7560C366D75AD6BBD3FABCC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		F5A8FCF4A7560C366D75AD6BBD3FABCC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		FBEDED93D3CEAA8A2D14FB644AC39071 /* Pods-DSSuspendManager_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DSSuspendManager_Example-frameworks.sh"; sourceTree = "<group>"; };
 		FCF5FFE827B02FB5EC925CBBE8B51E9D /* DSSuspendManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DSSuspendManager-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -128,7 +129,6 @@
 				47B54B61D1D2055FB0EF7A1674C819C9 /* STSimplePing.h */,
 				AAE516A31F7A9E9D6A9DD5B5311C34F2 /* STSimplePing.m */,
 			);
-			name = PingTester;
 			path = PingTester;
 			sourceTree = "<group>";
 		};
@@ -145,7 +145,6 @@
 			children = (
 				9ED5D0B08E7B12CE459A345D72F4C925 /* DSLineChooseViews */,
 			);
-			name = DSSuspendManager;
 			path = DSSuspendManager;
 			sourceTree = "<group>";
 		};
@@ -269,7 +268,6 @@
 			children = (
 				3D25AF37D5255A5C087F60F680B475B3 /* DSLineChooseViews.xib */,
 			);
-			name = DSLineChooseViews;
 			path = DSLineChooseViews;
 			sourceTree = "<group>";
 		};
@@ -441,6 +439,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				124C1EA921988AAE00769453 /* DSLineChooseViews.xib in Resources */,
 				67CCC9BB7F54805BFBF2E1E03417B398 /* DSSuspendManager.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -707,8 +706,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 4.2;
 				SYMROOT = "${SRCROOT}/../build";
 			};

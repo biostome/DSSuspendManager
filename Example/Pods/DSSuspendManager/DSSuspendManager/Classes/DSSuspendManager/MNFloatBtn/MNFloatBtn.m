@@ -69,7 +69,7 @@ static CGFloat floatBtnH = 40;
     
     return [self initWithType:type
                         frame:frame
-              backgroundColor:[UIColor greenColor]
+              backgroundColor:nil
               backgroundImage:image];
 }
 

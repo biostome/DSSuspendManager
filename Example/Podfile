@@ -3,5 +3,5 @@ source 'https://github.com/biostome/DSSpecs.git'
 use_frameworks!
 target 'DSSuspendManager_Example' do
     pod 'DSSuspendManager' , :path => '../'
-#    pod 'DSSuspendManager', '~>0.1.1'
+#    pod 'DSSuspendManager', '~>0.1.2'
 end
