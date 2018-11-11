@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'DSSuspendManager_Example' do
+  pod 'DSSuspendManager', :path => '../'
+
+  target 'DSSuspendManager_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
