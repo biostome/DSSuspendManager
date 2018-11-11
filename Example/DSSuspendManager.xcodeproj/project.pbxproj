@@ -60,13 +60,13 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		8D0F346008E289F637AF41EC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		8D0F346008E289F637AF41EC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		B726D9DC250B590A7F9D45D2 /* Pods-DSSuspendManager_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DSSuspendManager_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DSSuspendManager_Tests/Pods-DSSuspendManager_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		BAEC59E4F87E0D9354408361 /* Pods-DSSuspendManager_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DSSuspendManager_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-DSSuspendManager_Example/Pods-DSSuspendManager_Example.release.xcconfig"; sourceTree = "<group>"; };
 		BC4D74F8DD2327A4A5D31EA9 /* Pods-DSSuspendManager_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DSSuspendManager_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DSSuspendManager_Tests/Pods-DSSuspendManager_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		C7F954EFBC7ACE35A92CCF93 /* Pods_DSSuspendManager_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DSSuspendManager_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		EB1E6F0F1B7019D81AEB31B1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		ECDBDCE8FC468407B9B6FF50 /* DSSuspendManager.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = DSSuspendManager.podspec; path = ../DSSuspendManager.podspec; sourceTree = "<group>"; };
+		EB1E6F0F1B7019D81AEB31B1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		ECDBDCE8FC468407B9B6FF50 /* DSSuspendManager.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = DSSuspendManager.podspec; path = ../DSSuspendManager.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */

@@ -1,0 +1,22 @@
+{
+  "name": "DSSuspendManager",
+  "version": "0.1.0",
+  "summary": "A short description of DSSuspendManager.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/biostome/DSSuspendManager",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "biostome": "ssh://git@47.90.122.99:2812/data/git/ios00001.git"
+  },
+  "source": {
+    "git": "https://github.com/biostome/DSSuspendManager.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "DSSuspendManager/Classes/**/*"
+}

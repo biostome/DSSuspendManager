@@ -1,0 +1,16 @@
+PODS:
+  - DSSuspendManager (0.1.0)
+
+DEPENDENCIES:
+  - DSSuspendManager (from `../`)
+
+EXTERNAL SOURCES:
+  DSSuspendManager:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DSSuspendManager: c6f771c61675b9ce7e35826542d4bdc68b4b0bcc
+
+PODFILE CHECKSUM: 9d606899cd648b16d327156bdf50cf056a85f7d0
+
+COCOAPODS: 1.5.3
