@@ -23,7 +23,6 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
-		C4E880D4B5C47527D9563E60 /* Pods_DSSuspendManager_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7F954EFBC7ACE35A92CCF93 /* Pods_DSSuspendManager_Tests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,9 +60,7 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8D0F346008E289F637AF41EC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		B726D9DC250B590A7F9D45D2 /* Pods-DSSuspendManager_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DSSuspendManager_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DSSuspendManager_Tests/Pods-DSSuspendManager_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		BAEC59E4F87E0D9354408361 /* Pods-DSSuspendManager_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DSSuspendManager_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-DSSuspendManager_Example/Pods-DSSuspendManager_Example.release.xcconfig"; sourceTree = "<group>"; };
-		BC4D74F8DD2327A4A5D31EA9 /* Pods-DSSuspendManager_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DSSuspendManager_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DSSuspendManager_Tests/Pods-DSSuspendManager_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		C7F954EFBC7ACE35A92CCF93 /* Pods_DSSuspendManager_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DSSuspendManager_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB1E6F0F1B7019D81AEB31B1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		ECDBDCE8FC468407B9B6FF50 /* DSSuspendManager.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = DSSuspendManager.podspec; path = ../DSSuspendManager.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
@@ -88,7 +85,6 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				C4E880D4B5C47527D9563E60 /* Pods_DSSuspendManager_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -190,8 +186,6 @@
 			children = (
 				183FAC915964E47B628539DE /* Pods-DSSuspendManager_Example.debug.xcconfig */,
 				BAEC59E4F87E0D9354408361 /* Pods-DSSuspendManager_Example.release.xcconfig */,
-				BC4D74F8DD2327A4A5D31EA9 /* Pods-DSSuspendManager_Tests.debug.xcconfig */,
-				B726D9DC250B590A7F9D45D2 /* Pods-DSSuspendManager_Tests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -222,7 +216,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "DSSuspendManager_Tests" */;
 			buildPhases = (
-				99B8F93C6BCCF6CD842CACD4 /* [CP] Check Pods Manifest.lock */,
 				6003F5AA195388D20070C39A /* Sources */,
 				6003F5AB195388D20070C39A /* Frameworks */,
 				6003F5AC195388D20070C39A /* Resources */,
@@ -314,28 +307,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DSSuspendManager_Example/Pods-DSSuspendManager_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		99B8F93C6BCCF6CD842CACD4 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-DSSuspendManager_Tests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		A255FD136BD2365565947F93 /* [CP] Check Pods Manifest.lock */ = {
@@ -524,7 +495,6 @@
 		};
 		6003F5C3195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BC4D74F8DD2327A4A5D31EA9 /* Pods-DSSuspendManager_Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -548,7 +518,6 @@
 		};
 		6003F5C4195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B726D9DC250B590A7F9D45D2 /* Pods-DSSuspendManager_Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (

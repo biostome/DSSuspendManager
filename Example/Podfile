@@ -1,11 +1,8 @@
+source 'https://github.com/Cocoapods/Specs.git'
+source 'https://github.com/biostome/DSSpecs.git'
 use_frameworks!
 
+
 target 'DSSuspendManager_Example' do
-  pod 'DSSuspendManager', :path => '../'
-
-  target 'DSSuspendManager_Tests' do
-    inherit! :search_paths
-
-    
-  end
+  pod 'DSSuspendManager'
 end

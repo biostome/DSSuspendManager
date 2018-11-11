@@ -7,26 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		03532E90E857D83EAB2FE9BF446E1D09 /* DSSuspendManager-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F73F2866520BA5B27321CA1FD9279D4 /* DSSuspendManager-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		08809479A9C5EB4C949D0095A4C888A6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
-		18DF832DC859327C102ED5D78A10668D /* Pods-DSSuspendManager_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 908DCE287639BD55813C85CF3970998A /* Pods-DSSuspendManager_Example-dummy.m */; };
+		0F7EE2AA1F08B9972DE79FFA0DB26C4A /* STDPingServices.m in Sources */ = {isa = PBXBuildFile; fileRef = B840A1CF95855DE34BB5640819245ABE /* STDPingServices.m */; };
+		18DF832DC859327C102ED5D78A10668D /* Pods-DSSuspendManager_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 16B0F23B732885B55A6061A4C01000A1 /* Pods-DSSuspendManager_Example-dummy.m */; };
 		1EA598C3F6F65F4C3CCA29C30B0563DD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
-		1F7CFA544000CF0DFBDAE53825B500F9 /* STDPingServices.h in Headers */ = {isa = PBXBuildFile; fileRef = E7298B62759831EEBF6582BB5B9CBB29 /* STDPingServices.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2671FD31F4240896BB4E2270397E6FE8 /* DSLineChooseViews.xib in Sources */ = {isa = PBXBuildFile; fileRef = 216A670D9F2F752F753BDD93205FA9E2 /* DSLineChooseViews.xib */; };
-		406D5CF52429B36769A9236D61F88470 /* DSLineChooseViews.m in Sources */ = {isa = PBXBuildFile; fileRef = 5747C87A7DDC4853FE111829B9F79E29 /* DSLineChooseViews.m */; };
-		564F5E3660F655327E6C7B5C83EF78D3 /* DSSuspendManager-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ECC0D93B4C136B33CCE7531F88A8BB7B /* DSSuspendManager-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		607B8460F5955DDAE0649CD0D7B8C893 /* DSLineChooseViews.h in Headers */ = {isa = PBXBuildFile; fileRef = 58F8FD46B60F654C48A55AB4059B03F8 /* DSLineChooseViews.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6DA90C3BBFD5C9ED231CBDF70887D716 /* Pods-DSSuspendManager_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 480F5AE2A24FC4E66ECAA09F10A500F3 /* Pods-DSSuspendManager_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8AC29334344CA0B1C16A0EFE8DD1FB75 /* Pods-DSSuspendManager_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8472818C412FA855854D233A5BC822BA /* Pods-DSSuspendManager_Tests-dummy.m */; };
-		8ADF55D46ED37411388C3898980E6C59 /* DSSuspendManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AB81B7828BC5D443D30541B330B1A15D /* DSSuspendManager.m */; };
-		8C5C766D431677CDEDDE8057C0C354B8 /* MNFloatBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = 07FD887A1C215328280DC295C8EC7BC0 /* MNFloatBtn.m */; };
-		91A83F4C0BD4F07326BB44DD44995DF1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
-		95497021843F0758199A937452914687 /* DSSuspendManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 309B4934E71BCCC8CD7436000EDE61CD /* DSSuspendManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AC5E9EB5F62AF45347030FED6E7F556C /* STSimplePing.h in Headers */ = {isa = PBXBuildFile; fileRef = B54BEDA103916D7DB1B40ED930F3A24E /* STSimplePing.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B9EBACFD5DF5202AD82776F9D2CC64C9 /* DSSuspendManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CB3B1D620A2BA29B698C6F04B5CC9729 /* DSSuspendManager-dummy.m */; };
-		D0F859DF844A8D4421B8AB6034D3B432 /* STDPingServices.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F162A99A9DE3969EB748021E1B0AB61 /* STDPingServices.m */; };
-		E71EA9A812349801004A4C1E0A80B43B /* MNFloatBtn.h in Headers */ = {isa = PBXBuildFile; fileRef = 83AEE158FD2CD0A4F1ED21394158B1E6 /* MNFloatBtn.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F98E6529E0D529BC7F9306EDD535D2CA /* STSimplePing.m in Sources */ = {isa = PBXBuildFile; fileRef = A30BB8492366DEED7B52AE4C8D9F10E6 /* STSimplePing.m */; };
-		FB66F32518F8FDD6E649980421E9DAFC /* Pods-DSSuspendManager_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 431C263FD4AD33FC4BCD0134EC739A55 /* Pods-DSSuspendManager_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		44FFA7EC330684DFC482272D4CBC0BCB /* DSSuspendManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 601451E03AD1E049AAE39D8F147CF133 /* DSSuspendManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		452C37EC54FFE210ACAE29EFB00150B8 /* MNFloatBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F3340B19CF5346D78CE0431B12D5709 /* MNFloatBtn.m */; };
+		67F82D7BB7D0084CFC99323AE7E95DA4 /* MNFloatBtn.h in Headers */ = {isa = PBXBuildFile; fileRef = 271D205E033B084B34CB5081DDB5EB8D /* MNFloatBtn.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6A1B60AD96FEFFFC632A2796AA39D34F /* STSimplePing.h in Headers */ = {isa = PBXBuildFile; fileRef = DB67932DD431787D5FEE3EC2B55BF402 /* STSimplePing.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6C4EC3313AC227F55992102C173E6919 /* DSLineChooseViews.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E9B09FF9E3B100C33EAA797FF59828B /* DSLineChooseViews.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7568847DAD901917DC5272F9D2E15927 /* DSSuspendManager.m in Sources */ = {isa = PBXBuildFile; fileRef = ABD8869F8C568312778C603DC9CC993C /* DSSuspendManager.m */; };
+		80D55E8E27C688364FC54988DFFD2419 /* DSLineChooseViews.xib in Sources */ = {isa = PBXBuildFile; fileRef = 115168A10C56424904C1A5C35AC52DE4 /* DSLineChooseViews.xib */; };
+		834ED7D6085D32E22B77AD089DDFDC49 /* DSLineChooseViews.m in Sources */ = {isa = PBXBuildFile; fileRef = B9EFFA41CA808E3637BF104248515057 /* DSLineChooseViews.m */; };
+		D01B6C6511630CB8106F896020F9F618 /* STDPingServices.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F9ED2353B512C837E000E00E6D4689A /* STDPingServices.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D0A86C03709345E5BF1D3B1865CEBF7A /* STSimplePing.m in Sources */ = {isa = PBXBuildFile; fileRef = 71FD84C573ADDB24749B2FBBDADB6E55 /* STSimplePing.m */; };
+		D2E221390107B048ECFE8B4A17F35742 /* DSSuspendManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A2E29A0E1359AB72A5119EA40D09371B /* DSSuspendManager-dummy.m */; };
+		FB66F32518F8FDD6E649980421E9DAFC /* Pods-DSSuspendManager_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FFEF9AF0927FBC7217C23A1FAC4A7F1 /* Pods-DSSuspendManager_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,72 +34,43 @@
 			remoteGlobalIDString = D34DD41B73B622F2E1D2AAB4BE35B79A;
 			remoteInfo = DSSuspendManager;
 		};
-		7ADE1894E5A43E0A7FE5D6B321392FCA /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D71844C7F0980BCF54B1F4CC0D9CE56B;
-			remoteInfo = "Pods-DSSuspendManager_Example";
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		04BD70ACA412883A75B33ECD350EADB3 /* Pods-DSSuspendManager_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DSSuspendManager_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		07FD887A1C215328280DC295C8EC7BC0 /* MNFloatBtn.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MNFloatBtn.m; sourceTree = "<group>"; };
-		0ED5FB6A6BECD7429156BE539668CA82 /* DSSuspendManager.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = DSSuspendManager.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		11437A44DC7520544B2E4FE091CE38BB /* Pods-DSSuspendManager_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DSSuspendManager_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		14BFDBE5C3EBEC3A3A7EAB9B4E902679 /* Pods-DSSuspendManager_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DSSuspendManager_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		1DB619C5E07896D01572FC76EBEAA060 /* Pods-DSSuspendManager_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DSSuspendManager_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		1F08032970F49CE3CC2154C43DB76358 /* Pods-DSSuspendManager_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DSSuspendManager_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		20AE20CD2C5AFAC6A60ABE1489143C38 /* DSSuspendManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DSSuspendManager-prefix.pch"; sourceTree = "<group>"; };
-		216A670D9F2F752F753BDD93205FA9E2 /* DSLineChooseViews.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = DSLineChooseViews.xib; sourceTree = "<group>"; };
-		264D44460160D93DF141037999843BAE /* Pods-DSSuspendManager_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DSSuspendManager_Example.modulemap"; sourceTree = "<group>"; };
-		2F9A3DF4DD04E1BA2D5B66C94E62522D /* Pods_DSSuspendManager_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DSSuspendManager_Example.framework; path = "Pods-DSSuspendManager_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		309B4934E71BCCC8CD7436000EDE61CD /* DSSuspendManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DSSuspendManager.h; path = DSSuspendManager/Classes/DSSuspendManager/DSSuspendManager.h; sourceTree = "<group>"; };
-		314E3445C48A16F65BE56B7EAB965DA7 /* Pods-DSSuspendManager_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DSSuspendManager_Example-frameworks.sh"; sourceTree = "<group>"; };
-		431C263FD4AD33FC4BCD0134EC739A55 /* Pods-DSSuspendManager_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DSSuspendManager_Example-umbrella.h"; sourceTree = "<group>"; };
-		453B4823010E144E06FC8503C0BCEB28 /* DSSuspendManager.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DSSuspendManager.modulemap; sourceTree = "<group>"; };
-		4610B5E1D3086B94B034F66575FACAAC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		480F5AE2A24FC4E66ECAA09F10A500F3 /* Pods-DSSuspendManager_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DSSuspendManager_Tests-umbrella.h"; sourceTree = "<group>"; };
-		5747C87A7DDC4853FE111829B9F79E29 /* DSLineChooseViews.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DSLineChooseViews.m; sourceTree = "<group>"; };
-		58F8FD46B60F654C48A55AB4059B03F8 /* DSLineChooseViews.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DSLineChooseViews.h; sourceTree = "<group>"; };
-		5F162A99A9DE3969EB748021E1B0AB61 /* STDPingServices.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = STDPingServices.m; sourceTree = "<group>"; };
-		6AC7D2A2A69772865EDA9B87E157C1A9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7B8975252653A38AA462FB9FF89562A4 /* Pods-DSSuspendManager_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DSSuspendManager_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		83AEE158FD2CD0A4F1ED21394158B1E6 /* MNFloatBtn.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MNFloatBtn.h; sourceTree = "<group>"; };
-		8472818C412FA855854D233A5BC822BA /* Pods-DSSuspendManager_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DSSuspendManager_Tests-dummy.m"; sourceTree = "<group>"; };
-		86311E2543939B8915E8E2D305E83DE0 /* Pods-DSSuspendManager_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DSSuspendManager_Tests-resources.sh"; sourceTree = "<group>"; };
-		8919A5A86E347CFA1A2E5077A382E655 /* Pods_DSSuspendManager_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DSSuspendManager_Tests.framework; path = "Pods-DSSuspendManager_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		8AE6ECE70EE17BDC972EFD15F95A08FD /* Pods-DSSuspendManager_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DSSuspendManager_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		908DCE287639BD55813C85CF3970998A /* Pods-DSSuspendManager_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DSSuspendManager_Example-dummy.m"; sourceTree = "<group>"; };
+		000CBD717BDD7B94D19F522FF720E745 /* DSSuspendManager.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DSSuspendManager.xcconfig; sourceTree = "<group>"; };
+		0BE92A1B8FBCC3DE8C129E5A43DDEDD9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C93C2923A03B251C9042BCCB8FBD21B /* Pods-DSSuspendManager_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DSSuspendManager_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		115168A10C56424904C1A5C35AC52DE4 /* DSLineChooseViews.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = DSLineChooseViews.xib; path = DSSuspendManager/Classes/DSSuspendManager/DSLineChooseViews/DSLineChooseViews.xib; sourceTree = "<group>"; };
+		16B0F23B732885B55A6061A4C01000A1 /* Pods-DSSuspendManager_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DSSuspendManager_Example-dummy.m"; sourceTree = "<group>"; };
+		271D205E033B084B34CB5081DDB5EB8D /* MNFloatBtn.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MNFloatBtn.h; path = DSSuspendManager/Classes/DSSuspendManager/MNFloatBtn/MNFloatBtn.h; sourceTree = "<group>"; };
+		398B14D0B9480915ECBFDAB69A1D1987 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		39CC2DB6B6E4C615A9C71FD1A9FD6C01 /* Pods-DSSuspendManager_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DSSuspendManager_Example.release.xcconfig"; sourceTree = "<group>"; };
+		3C298AE32C3744C06942B3743E4B552C /* DSSuspendManager.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DSSuspendManager.modulemap; sourceTree = "<group>"; };
+		3F3340B19CF5346D78CE0431B12D5709 /* MNFloatBtn.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MNFloatBtn.m; path = DSSuspendManager/Classes/DSSuspendManager/MNFloatBtn/MNFloatBtn.m; sourceTree = "<group>"; };
+		40DC3235C292E026FC4D5727731A0A35 /* Pods-DSSuspendManager_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DSSuspendManager_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		41974B0DB0E680459D1EB7B10BDB2CA9 /* DSSuspendManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DSSuspendManager-prefix.pch"; sourceTree = "<group>"; };
+		4DEA0C0956188155D86A74173D40C78F /* Pods-DSSuspendManager_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DSSuspendManager_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		4FFEF9AF0927FBC7217C23A1FAC4A7F1 /* Pods-DSSuspendManager_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DSSuspendManager_Example-umbrella.h"; sourceTree = "<group>"; };
+		503A10F1BEAB8ED794481194DB8C7C86 /* Pods_DSSuspendManager_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DSSuspendManager_Example.framework; path = "Pods-DSSuspendManager_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		601451E03AD1E049AAE39D8F147CF133 /* DSSuspendManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DSSuspendManager.h; path = DSSuspendManager/Classes/DSSuspendManager/DSSuspendManager.h; sourceTree = "<group>"; };
+		71FD84C573ADDB24749B2FBBDADB6E55 /* STSimplePing.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = STSimplePing.m; path = DSSuspendManager/Classes/DSSuspendManager/STPingTest/PingTester/STSimplePing.m; sourceTree = "<group>"; };
+		7DFAD2085DC32EA6346A2E1287D1280F /* Pods-DSSuspendManager_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DSSuspendManager_Example.modulemap"; sourceTree = "<group>"; };
+		8BC348C4CDCB40B0FA4783C68219C417 /* Pods-DSSuspendManager_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DSSuspendManager_Example-resources.sh"; sourceTree = "<group>"; };
+		8E9B09FF9E3B100C33EAA797FF59828B /* DSLineChooseViews.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DSLineChooseViews.h; path = DSSuspendManager/Classes/DSSuspendManager/DSLineChooseViews/DSLineChooseViews.h; sourceTree = "<group>"; };
+		8F73F2866520BA5B27321CA1FD9279D4 /* DSSuspendManager-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DSSuspendManager-umbrella.h"; sourceTree = "<group>"; };
+		8F9ED2353B512C837E000E00E6D4689A /* STDPingServices.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STDPingServices.h; path = DSSuspendManager/Classes/DSSuspendManager/STPingTest/STDPingServices.h; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		94C4DCC88EF580DA1FAEF5F81454932A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9F721341CEA3CF47D0039D501923FD32 /* Pods-DSSuspendManager_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DSSuspendManager_Example-resources.sh"; sourceTree = "<group>"; };
-		A30BB8492366DEED7B52AE4C8D9F10E6 /* STSimplePing.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = STSimplePing.m; sourceTree = "<group>"; };
-		AB81B7828BC5D443D30541B330B1A15D /* DSSuspendManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DSSuspendManager.m; path = DSSuspendManager/Classes/DSSuspendManager/DSSuspendManager.m; sourceTree = "<group>"; };
-		B48CD4633D722FFCEFBF1D368B631658 /* DSSuspendManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DSSuspendManager.framework; path = DSSuspendManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B54BEDA103916D7DB1B40ED930F3A24E /* STSimplePing.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = STSimplePing.h; sourceTree = "<group>"; };
-		CB3B1D620A2BA29B698C6F04B5CC9729 /* DSSuspendManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DSSuspendManager-dummy.m"; sourceTree = "<group>"; };
-		CCFB3156765C2A720A1F707DD5CEFA60 /* Pods-DSSuspendManager_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DSSuspendManager_Tests.modulemap"; sourceTree = "<group>"; };
+		980EA592147493699BDEE6D3DB90F960 /* DSSuspendManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DSSuspendManager.framework; path = DSSuspendManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2E29A0E1359AB72A5119EA40D09371B /* DSSuspendManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DSSuspendManager-dummy.m"; sourceTree = "<group>"; };
+		ABD8869F8C568312778C603DC9CC993C /* DSSuspendManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DSSuspendManager.m; path = DSSuspendManager/Classes/DSSuspendManager/DSSuspendManager.m; sourceTree = "<group>"; };
+		B840A1CF95855DE34BB5640819245ABE /* STDPingServices.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = STDPingServices.m; path = DSSuspendManager/Classes/DSSuspendManager/STPingTest/STDPingServices.m; sourceTree = "<group>"; };
+		B9EFFA41CA808E3637BF104248515057 /* DSLineChooseViews.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DSLineChooseViews.m; path = DSSuspendManager/Classes/DSSuspendManager/DSLineChooseViews/DSLineChooseViews.m; sourceTree = "<group>"; };
 		D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		E0F18C82E31B996B4740BB3D98C3D420 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		E3059F99C7BA68842B99E45583AD8060 /* Pods-DSSuspendManager_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DSSuspendManager_Example.release.xcconfig"; sourceTree = "<group>"; };
-		E51CCAEED121181E7F94D78F0D785680 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		E7298B62759831EEBF6582BB5B9CBB29 /* STDPingServices.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = STDPingServices.h; sourceTree = "<group>"; };
-		E7AB7DF2369FCB407A1C3DA568953019 /* DSSuspendManager.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DSSuspendManager.xcconfig; sourceTree = "<group>"; };
-		ECC0D93B4C136B33CCE7531F88A8BB7B /* DSSuspendManager-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DSSuspendManager-umbrella.h"; sourceTree = "<group>"; };
-		F0AEF3893F0D1F583CEE4E2FCEE2355C /* Pods-DSSuspendManager_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DSSuspendManager_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		DB67932DD431787D5FEE3EC2B55BF402 /* STSimplePing.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STSimplePing.h; path = DSSuspendManager/Classes/DSSuspendManager/STPingTest/PingTester/STSimplePing.h; sourceTree = "<group>"; };
+		FBEDED93D3CEAA8A2D14FB644AC39071 /* Pods-DSSuspendManager_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DSSuspendManager_Example-frameworks.sh"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		3D4141B3E2C5B244747C649887765EAA /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				91A83F4C0BD4F07326BB44DD44995DF1 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		6DE25ABF90FEBE828F01B3156D9007E3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -122,36 +90,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		144D0DF80C9571BA4A12E8C68271B64C /* Development Pods */ = {
+		1BADD21C82783D8CD6DFC52DFEF045B1 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				39DADF4DBD75FB9C31F8884D5EB9BB02 /* DSSuspendManager */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		18DC6E974D62B03DFECAE5577FB2865A /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				D8F8DA9E0271DFBEC7E0821A9FCDFC33 /* Pods-DSSuspendManager_Example */,
-				A7C1136EBC796D98E9787DEC73C28155 /* Pods-DSSuspendManager_Tests */,
+				8F4DBB55A680FC0242240AD8FF5B3A14 /* Pods-DSSuspendManager_Example */,
 			);
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		39DADF4DBD75FB9C31F8884D5EB9BB02 /* DSSuspendManager */ = {
+		41B5F8DA0A147A397AAF31CA86530F32 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				309B4934E71BCCC8CD7436000EDE61CD /* DSSuspendManager.h */,
-				AB81B7828BC5D443D30541B330B1A15D /* DSSuspendManager.m */,
-				CA5B8B9915B09667C30637A68C632A36 /* DSLineChooseViews */,
-				54E7490C84614FFBA0D72C74D5D0A49A /* MNFloatBtn */,
-				481F7E818170C6C06FBD9BC3CA0B20AA /* Pod */,
-				B87B999AF59FC272CFD394C34725E91C /* STPingTest */,
-				A001D00668385956872520733DC069C2 /* Support Files */,
+				3C298AE32C3744C06942B3743E4B552C /* DSSuspendManager.modulemap */,
+				000CBD717BDD7B94D19F522FF720E745 /* DSSuspendManager.xcconfig */,
+				A2E29A0E1359AB72A5119EA40D09371B /* DSSuspendManager-dummy.m */,
+				41974B0DB0E680459D1EB7B10BDB2CA9 /* DSSuspendManager-prefix.pch */,
+				8F73F2866520BA5B27321CA1FD9279D4 /* DSSuspendManager-umbrella.h */,
+				398B14D0B9480915ECBFDAB69A1D1987 /* Info.plist */,
 			);
-			name = DSSuspendManager;
-			path = ../..;
+			name = "Support Files";
+			path = "../Target Support Files/DSSuspendManager";
+			sourceTree = "<group>";
+		};
+		434B5D48C96ADBADD9A94F10D714DD04 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				980EA592147493699BDEE6D3DB90F960 /* DSSuspendManager.framework */,
+				503A10F1BEAB8ED794481194DB8C7C86 /* Pods_DSSuspendManager_Example.framework */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		44D5347904CF754D6785B84253F2574A /* iOS */ = {
@@ -162,98 +129,61 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		481F7E818170C6C06FBD9BC3CA0B20AA /* Pod */ = {
+		7A4D5BC305E639BEC0267203468DCE76 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				0ED5FB6A6BECD7429156BE539668CA82 /* DSSuspendManager.podspec */,
-				E0F18C82E31B996B4740BB3D98C3D420 /* LICENSE */,
-				E51CCAEED121181E7F94D78F0D785680 /* README.md */,
+				801613E9B93EE4CC50A5BB8072387D19 /* DSSuspendManager */,
 			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		54E7490C84614FFBA0D72C74D5D0A49A /* MNFloatBtn */ = {
-			isa = PBXGroup;
-			children = (
-				83AEE158FD2CD0A4F1ED21394158B1E6 /* MNFloatBtn.h */,
-				07FD887A1C215328280DC295C8EC7BC0 /* MNFloatBtn.m */,
-			);
-			name = MNFloatBtn;
-			path = DSSuspendManager/Classes/DSSuspendManager/MNFloatBtn;
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				144D0DF80C9571BA4A12E8C68271B64C /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				9340CC2DD22DFA1DB2FD2C1B49E2275F /* Products */,
-				18DC6E974D62B03DFECAE5577FB2865A /* Targets Support Files */,
+				7A4D5BC305E639BEC0267203468DCE76 /* Pods */,
+				434B5D48C96ADBADD9A94F10D714DD04 /* Products */,
+				1BADD21C82783D8CD6DFC52DFEF045B1 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		84B68F0C40C5DB0285A2C458363E0B63 /* PingTester */ = {
+		801613E9B93EE4CC50A5BB8072387D19 /* DSSuspendManager */ = {
 			isa = PBXGroup;
 			children = (
-				B54BEDA103916D7DB1B40ED930F3A24E /* STSimplePing.h */,
-				A30BB8492366DEED7B52AE4C8D9F10E6 /* STSimplePing.m */,
+				8E9B09FF9E3B100C33EAA797FF59828B /* DSLineChooseViews.h */,
+				B9EFFA41CA808E3637BF104248515057 /* DSLineChooseViews.m */,
+				115168A10C56424904C1A5C35AC52DE4 /* DSLineChooseViews.xib */,
+				601451E03AD1E049AAE39D8F147CF133 /* DSSuspendManager.h */,
+				ABD8869F8C568312778C603DC9CC993C /* DSSuspendManager.m */,
+				271D205E033B084B34CB5081DDB5EB8D /* MNFloatBtn.h */,
+				3F3340B19CF5346D78CE0431B12D5709 /* MNFloatBtn.m */,
+				8F9ED2353B512C837E000E00E6D4689A /* STDPingServices.h */,
+				B840A1CF95855DE34BB5640819245ABE /* STDPingServices.m */,
+				DB67932DD431787D5FEE3EC2B55BF402 /* STSimplePing.h */,
+				71FD84C573ADDB24749B2FBBDADB6E55 /* STSimplePing.m */,
+				41B5F8DA0A147A397AAF31CA86530F32 /* Support Files */,
 			);
-			name = PingTester;
-			path = PingTester;
+			name = DSSuspendManager;
+			path = DSSuspendManager;
 			sourceTree = "<group>";
 		};
-		9340CC2DD22DFA1DB2FD2C1B49E2275F /* Products */ = {
+		8F4DBB55A680FC0242240AD8FF5B3A14 /* Pods-DSSuspendManager_Example */ = {
 			isa = PBXGroup;
 			children = (
-				B48CD4633D722FFCEFBF1D368B631658 /* DSSuspendManager.framework */,
-				2F9A3DF4DD04E1BA2D5B66C94E62522D /* Pods_DSSuspendManager_Example.framework */,
-				8919A5A86E347CFA1A2E5077A382E655 /* Pods_DSSuspendManager_Tests.framework */,
+				0BE92A1B8FBCC3DE8C129E5A43DDEDD9 /* Info.plist */,
+				7DFAD2085DC32EA6346A2E1287D1280F /* Pods-DSSuspendManager_Example.modulemap */,
+				40DC3235C292E026FC4D5727731A0A35 /* Pods-DSSuspendManager_Example-acknowledgements.markdown */,
+				0C93C2923A03B251C9042BCCB8FBD21B /* Pods-DSSuspendManager_Example-acknowledgements.plist */,
+				16B0F23B732885B55A6061A4C01000A1 /* Pods-DSSuspendManager_Example-dummy.m */,
+				FBEDED93D3CEAA8A2D14FB644AC39071 /* Pods-DSSuspendManager_Example-frameworks.sh */,
+				8BC348C4CDCB40B0FA4783C68219C417 /* Pods-DSSuspendManager_Example-resources.sh */,
+				4FFEF9AF0927FBC7217C23A1FAC4A7F1 /* Pods-DSSuspendManager_Example-umbrella.h */,
+				4DEA0C0956188155D86A74173D40C78F /* Pods-DSSuspendManager_Example.debug.xcconfig */,
+				39CC2DB6B6E4C615A9C71FD1A9FD6C01 /* Pods-DSSuspendManager_Example.release.xcconfig */,
 			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		A001D00668385956872520733DC069C2 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				453B4823010E144E06FC8503C0BCEB28 /* DSSuspendManager.modulemap */,
-				E7AB7DF2369FCB407A1C3DA568953019 /* DSSuspendManager.xcconfig */,
-				CB3B1D620A2BA29B698C6F04B5CC9729 /* DSSuspendManager-dummy.m */,
-				20AE20CD2C5AFAC6A60ABE1489143C38 /* DSSuspendManager-prefix.pch */,
-				ECC0D93B4C136B33CCE7531F88A8BB7B /* DSSuspendManager-umbrella.h */,
-				94C4DCC88EF580DA1FAEF5F81454932A /* Info.plist */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/DSSuspendManager";
-			sourceTree = "<group>";
-		};
-		A7C1136EBC796D98E9787DEC73C28155 /* Pods-DSSuspendManager_Tests */ = {
-			isa = PBXGroup;
-			children = (
-				4610B5E1D3086B94B034F66575FACAAC /* Info.plist */,
-				CCFB3156765C2A720A1F707DD5CEFA60 /* Pods-DSSuspendManager_Tests.modulemap */,
-				14BFDBE5C3EBEC3A3A7EAB9B4E902679 /* Pods-DSSuspendManager_Tests-acknowledgements.markdown */,
-				1F08032970F49CE3CC2154C43DB76358 /* Pods-DSSuspendManager_Tests-acknowledgements.plist */,
-				8472818C412FA855854D233A5BC822BA /* Pods-DSSuspendManager_Tests-dummy.m */,
-				11437A44DC7520544B2E4FE091CE38BB /* Pods-DSSuspendManager_Tests-frameworks.sh */,
-				86311E2543939B8915E8E2D305E83DE0 /* Pods-DSSuspendManager_Tests-resources.sh */,
-				480F5AE2A24FC4E66ECAA09F10A500F3 /* Pods-DSSuspendManager_Tests-umbrella.h */,
-				7B8975252653A38AA462FB9FF89562A4 /* Pods-DSSuspendManager_Tests.debug.xcconfig */,
-				1DB619C5E07896D01572FC76EBEAA060 /* Pods-DSSuspendManager_Tests.release.xcconfig */,
-			);
-			name = "Pods-DSSuspendManager_Tests";
-			path = "Target Support Files/Pods-DSSuspendManager_Tests";
-			sourceTree = "<group>";
-		};
-		B87B999AF59FC272CFD394C34725E91C /* STPingTest */ = {
-			isa = PBXGroup;
-			children = (
-				E7298B62759831EEBF6582BB5B9CBB29 /* STDPingServices.h */,
-				5F162A99A9DE3969EB748021E1B0AB61 /* STDPingServices.m */,
-				84B68F0C40C5DB0285A2C458363E0B63 /* PingTester */,
-			);
-			name = STPingTest;
-			path = DSSuspendManager/Classes/DSSuspendManager/STPingTest;
+			name = "Pods-DSSuspendManager_Example";
+			path = "Target Support Files/Pods-DSSuspendManager_Example";
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -264,46 +194,9 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		CA5B8B9915B09667C30637A68C632A36 /* DSLineChooseViews */ = {
-			isa = PBXGroup;
-			children = (
-				58F8FD46B60F654C48A55AB4059B03F8 /* DSLineChooseViews.h */,
-				5747C87A7DDC4853FE111829B9F79E29 /* DSLineChooseViews.m */,
-				216A670D9F2F752F753BDD93205FA9E2 /* DSLineChooseViews.xib */,
-			);
-			name = DSLineChooseViews;
-			path = DSSuspendManager/Classes/DSSuspendManager/DSLineChooseViews;
-			sourceTree = "<group>";
-		};
-		D8F8DA9E0271DFBEC7E0821A9FCDFC33 /* Pods-DSSuspendManager_Example */ = {
-			isa = PBXGroup;
-			children = (
-				6AC7D2A2A69772865EDA9B87E157C1A9 /* Info.plist */,
-				264D44460160D93DF141037999843BAE /* Pods-DSSuspendManager_Example.modulemap */,
-				8AE6ECE70EE17BDC972EFD15F95A08FD /* Pods-DSSuspendManager_Example-acknowledgements.markdown */,
-				F0AEF3893F0D1F583CEE4E2FCEE2355C /* Pods-DSSuspendManager_Example-acknowledgements.plist */,
-				908DCE287639BD55813C85CF3970998A /* Pods-DSSuspendManager_Example-dummy.m */,
-				314E3445C48A16F65BE56B7EAB965DA7 /* Pods-DSSuspendManager_Example-frameworks.sh */,
-				9F721341CEA3CF47D0039D501923FD32 /* Pods-DSSuspendManager_Example-resources.sh */,
-				431C263FD4AD33FC4BCD0134EC739A55 /* Pods-DSSuspendManager_Example-umbrella.h */,
-				04BD70ACA412883A75B33ECD350EADB3 /* Pods-DSSuspendManager_Example.debug.xcconfig */,
-				E3059F99C7BA68842B99E45583AD8060 /* Pods-DSSuspendManager_Example.release.xcconfig */,
-			);
-			name = "Pods-DSSuspendManager_Example";
-			path = "Target Support Files/Pods-DSSuspendManager_Example";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		2C9F88222434F1AE5B19B29E57B68309 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6DA90C3BBFD5C9ED231CBDF70887D716 /* Pods-DSSuspendManager_Tests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		546F49B8F0F57C3C08F037245DCD9A02 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -312,47 +205,28 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E91BDF7C290873540F1686568FCE23A8 /* Headers */ = {
+		C1ABA2590830ABDD1C2DF5F618BC50B2 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				607B8460F5955DDAE0649CD0D7B8C893 /* DSLineChooseViews.h in Headers */,
-				564F5E3660F655327E6C7B5C83EF78D3 /* DSSuspendManager-umbrella.h in Headers */,
-				95497021843F0758199A937452914687 /* DSSuspendManager.h in Headers */,
-				E71EA9A812349801004A4C1E0A80B43B /* MNFloatBtn.h in Headers */,
-				1F7CFA544000CF0DFBDAE53825B500F9 /* STDPingServices.h in Headers */,
-				AC5E9EB5F62AF45347030FED6E7F556C /* STSimplePing.h in Headers */,
+				6C4EC3313AC227F55992102C173E6919 /* DSLineChooseViews.h in Headers */,
+				03532E90E857D83EAB2FE9BF446E1D09 /* DSSuspendManager-umbrella.h in Headers */,
+				44FFA7EC330684DFC482272D4CBC0BCB /* DSSuspendManager.h in Headers */,
+				67F82D7BB7D0084CFC99323AE7E95DA4 /* MNFloatBtn.h in Headers */,
+				D01B6C6511630CB8106F896020F9F618 /* STDPingServices.h in Headers */,
+				6A1B60AD96FEFFFC632A2796AA39D34F /* STSimplePing.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		9879A82C8C00076ED71444076724D161 /* Pods-DSSuspendManager_Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 78F19D4C0B6543A73F8E8133736554BE /* Build configuration list for PBXNativeTarget "Pods-DSSuspendManager_Tests" */;
-			buildPhases = (
-				2C9F88222434F1AE5B19B29E57B68309 /* Headers */,
-				5A95BA37025BC1C16575BCB05F3C9BDA /* Sources */,
-				3D4141B3E2C5B244747C649887765EAA /* Frameworks */,
-				35B412EB415A5E3C2F1321CBB0DFF224 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				521708053304D6E0F2FA4C5FF63A8662 /* PBXTargetDependency */,
-			);
-			name = "Pods-DSSuspendManager_Tests";
-			productName = "Pods-DSSuspendManager_Tests";
-			productReference = 8919A5A86E347CFA1A2E5077A382E655 /* Pods_DSSuspendManager_Tests.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		D34DD41B73B622F2E1D2AAB4BE35B79A /* DSSuspendManager */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 01FFD230917D83F7BF8F7DC3166A814A /* Build configuration list for PBXNativeTarget "DSSuspendManager" */;
 			buildPhases = (
-				E91BDF7C290873540F1686568FCE23A8 /* Headers */,
-				ECB902C81E5B1325C5F20F7B3CD667AF /* Sources */,
+				C1ABA2590830ABDD1C2DF5F618BC50B2 /* Headers */,
+				CA82FD243FA0A12BFAEBFF6E33902A0C /* Sources */,
 				6DE25ABF90FEBE828F01B3156D9007E3 /* Frameworks */,
 				4E29A9AA48C920A56565B31EE3D4B76E /* Resources */,
 			);
@@ -362,7 +236,7 @@
 			);
 			name = DSSuspendManager;
 			productName = DSSuspendManager;
-			productReference = B48CD4633D722FFCEFBF1D368B631658 /* DSSuspendManager.framework */;
+			productReference = 980EA592147493699BDEE6D3DB90F960 /* DSSuspendManager.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		D71844C7F0980BCF54B1F4CC0D9CE56B /* Pods-DSSuspendManager_Example */ = {
@@ -381,7 +255,7 @@
 			);
 			name = "Pods-DSSuspendManager_Example";
 			productName = "Pods-DSSuspendManager_Example";
-			productReference = 2F9A3DF4DD04E1BA2D5B66C94E62522D /* Pods_DSSuspendManager_Example.framework */;
+			productReference = 503A10F1BEAB8ED794481194DB8C7C86 /* Pods_DSSuspendManager_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -401,25 +275,17 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 9340CC2DD22DFA1DB2FD2C1B49E2275F /* Products */;
+			productRefGroup = 434B5D48C96ADBADD9A94F10D714DD04 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				D34DD41B73B622F2E1D2AAB4BE35B79A /* DSSuspendManager */,
 				D71844C7F0980BCF54B1F4CC0D9CE56B /* Pods-DSSuspendManager_Example */,
-				9879A82C8C00076ED71444076724D161 /* Pods-DSSuspendManager_Tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		35B412EB415A5E3C2F1321CBB0DFF224 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		4E29A9AA48C920A56565B31EE3D4B76E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -437,14 +303,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		5A95BA37025BC1C16575BCB05F3C9BDA /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8AC29334344CA0B1C16A0EFE8DD1FB75 /* Pods-DSSuspendManager_Tests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		67B62EF9D088ADF643A2686485F57347 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -453,29 +311,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		ECB902C81E5B1325C5F20F7B3CD667AF /* Sources */ = {
+		CA82FD243FA0A12BFAEBFF6E33902A0C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				406D5CF52429B36769A9236D61F88470 /* DSLineChooseViews.m in Sources */,
-				2671FD31F4240896BB4E2270397E6FE8 /* DSLineChooseViews.xib in Sources */,
-				B9EBACFD5DF5202AD82776F9D2CC64C9 /* DSSuspendManager-dummy.m in Sources */,
-				8ADF55D46ED37411388C3898980E6C59 /* DSSuspendManager.m in Sources */,
-				8C5C766D431677CDEDDE8057C0C354B8 /* MNFloatBtn.m in Sources */,
-				D0F859DF844A8D4421B8AB6034D3B432 /* STDPingServices.m in Sources */,
-				F98E6529E0D529BC7F9306EDD535D2CA /* STSimplePing.m in Sources */,
+				834ED7D6085D32E22B77AD089DDFDC49 /* DSLineChooseViews.m in Sources */,
+				80D55E8E27C688364FC54988DFFD2419 /* DSLineChooseViews.xib in Sources */,
+				D2E221390107B048ECFE8B4A17F35742 /* DSSuspendManager-dummy.m in Sources */,
+				7568847DAD901917DC5272F9D2E15927 /* DSSuspendManager.m in Sources */,
+				452C37EC54FFE210ACAE29EFB00150B8 /* MNFloatBtn.m in Sources */,
+				0F7EE2AA1F08B9972DE79FFA0DB26C4A /* STDPingServices.m in Sources */,
+				D0A86C03709345E5BF1D3B1865CEBF7A /* STSimplePing.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		521708053304D6E0F2FA4C5FF63A8662 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-DSSuspendManager_Example";
-			target = D71844C7F0980BCF54B1F4CC0D9CE56B /* Pods-DSSuspendManager_Example */;
-			targetProxy = 7ADE1894E5A43E0A7FE5D6B321392FCA /* PBXContainerItemProxy */;
-		};
 		F6D3B59C9A877F6C8115F9E4D8B32501 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = DSSuspendManager;
@@ -487,7 +339,7 @@
 /* Begin XCBuildConfiguration section */
 		00F2DF8787B89C4FBCFDB079F72BA16E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E7AB7DF2369FCB407A1C3DA568953019 /* DSSuspendManager.xcconfig */;
+			baseConfigurationReference = 000CBD717BDD7B94D19F522FF720E745 /* DSSuspendManager.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -515,76 +367,9 @@
 			};
 			name = Debug;
 		};
-		460161F41DBBED52AD3A2324659DBD71 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1DB619C5E07896D01572FC76EBEAA060 /* Pods-DSSuspendManager_Tests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-DSSuspendManager_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-DSSuspendManager_Tests/Pods-DSSuspendManager_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		4A0F6E423A5BE0401915583D950D1558 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7B8975252653A38AA462FB9FF89562A4 /* Pods-DSSuspendManager_Tests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-DSSuspendManager_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-DSSuspendManager_Tests/Pods-DSSuspendManager_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		4C222AA448BA3FF51EB6C6D406637573 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E3059F99C7BA68842B99E45583AD8060 /* Pods-DSSuspendManager_Example.release.xcconfig */;
+			baseConfigurationReference = 39CC2DB6B6E4C615A9C71FD1A9FD6C01 /* Pods-DSSuspendManager_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -746,7 +531,7 @@
 		};
 		AE867DAF025F671F849B893FB1FDB9F1 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E7AB7DF2369FCB407A1C3DA568953019 /* DSSuspendManager.xcconfig */;
+			baseConfigurationReference = 000CBD717BDD7B94D19F522FF720E745 /* DSSuspendManager.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -777,7 +562,7 @@
 		};
 		D92B7FB7D86BA6C7B08DC49E6B633E98 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 04BD70ACA412883A75B33ECD350EADB3 /* Pods-DSSuspendManager_Example.debug.xcconfig */;
+			baseConfigurationReference = 4DEA0C0956188155D86A74173D40C78F /* Pods-DSSuspendManager_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -834,15 +619,6 @@
 			buildConfigurations = (
 				D92B7FB7D86BA6C7B08DC49E6B633E98 /* Debug */,
 				4C222AA448BA3FF51EB6C6D406637573 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		78F19D4C0B6543A73F8E8133736554BE /* Build configuration list for PBXNativeTarget "Pods-DSSuspendManager_Tests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				4A0F6E423A5BE0401915583D950D1558 /* Debug */,
-				460161F41DBBED52AD3A2324659DBD71 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
