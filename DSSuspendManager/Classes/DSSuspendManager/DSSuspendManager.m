@@ -15,6 +15,7 @@
 @interface DSSuspendManager ()<DSLineChooseViewsDelegate>
 @property (nonatomic, strong) DSLineChooseViews * lineChooseView;
 @end
+/// 视图显示开关记录key
 static NSString * ChooseLineViewOnSwitchKey = @"ChooseLineViewOnSwitchKey";
 @implementation DSSuspendManager{
     NSArray<NSString*>* _URLs;
@@ -42,11 +43,13 @@ static NSString * ChooseLineViewOnSwitchKey = @"ChooseLineViewOnSwitchKey";
     self = [super init];
     if (self) {
         [self setVersionBtn];
-        [self setChooseAfterDismiss:YES];
+        [self setManuallyChooseAfterDismiss:YES]; // 手动选择线路默认自动关闭
+        //线路视图选择UI开关默认为打开状态，这里记录状态默认为开启
         [NSUserDefaults.standardUserDefaults setBool:YES forKey:ChooseLineViewOnSwitchKey];
     }
     return self;
 }
+
 
 -(void)showFloatButtonWithURLs:(NSArray<NSString *> *)URLs{
     _URLs = URLs;
@@ -98,6 +101,9 @@ static NSString * ChooseLineViewOnSwitchKey = @"ChooseLineViewOnSwitchKey";
     if ([self.delegate respondsToSelector:@selector(autoChooseLineFinishWithURL:)]) {
         [self.delegate autoChooseLineFinishWithURL:URL];
     }
+    if (self.autoChooseAfterDismiss) {
+        [view dismiss];
+    }
 }
 
 - (void)manuallyChooseWithURL:(NSURL *)URL DSLineChooseViews:(DSLineChooseViews *)view{
@@ -105,7 +111,7 @@ static NSString * ChooseLineViewOnSwitchKey = @"ChooseLineViewOnSwitchKey";
     if ([self.delegate respondsToSelector:@selector(manuallyChooseLineWithFinishWithURL:)]) {
         [self.delegate manuallyChooseLineWithFinishWithURL:URL];
     }
-    if (self.chooseAfterDismiss) {
+    if (self.manuallyChooseAfterDismiss) {
         [view dismiss];
     }
 }
