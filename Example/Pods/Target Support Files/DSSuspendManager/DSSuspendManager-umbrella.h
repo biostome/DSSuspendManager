@@ -10,6 +10,8 @@
 #endif
 #endif
 
+#import "DSLineChooseCell.h"
+#import "DSLineChooseModel.h"
 #import "DSLineChooseViews.h"
 #import "DSSuspendManager.h"
 #import "MNFloatBtn.h"

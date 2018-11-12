@@ -27,21 +27,8 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, weak) id<DSLineChooseViewsDelegate> delegate;
 @end
 
-@class DSLineChooseModel;
-@interface DSLineChooseCell : UITableViewCell
-@property (nonatomic, strong)UILabel *label1;
-@property (nonatomic, strong)UILabel *label2;
-@property (nonatomic, strong)DSLineChooseModel *lineModel;
-@end
 
-typedef void(^PingActionBlock)(double timeMilliseconds);
-@interface DSLineChooseModel : NSObject
-@property (nonatomic, assign) NSUInteger idx;
-@property (nonatomic, strong) NSURL *url;
-@property (nonatomic, assign) double timeMilliseconds;
-@property (nonatomic, copy) PingActionBlock pingActionBlock;
-- (void)startPing;
-- (void)stopPing;
-@end
+
+
 
 NS_ASSUME_NONNULL_END

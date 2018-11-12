@@ -30,10 +30,10 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'DSSuspendManager/Classes/**/*.{h,m}'
+  s.source_files = 'DSSuspendManager/Classes/**/*'
   
   s.resource_bundles = {
-    'DSSuspendManager' => ['DSSuspendManager/Assets/*.png','DSSuspendManager/Classes/**/*.xib']
+      'DSSuspendManager' => ['DSSuspendManager/Assets/*.png']
   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
